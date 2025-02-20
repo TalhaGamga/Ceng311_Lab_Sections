@@ -1,0 +1,78 @@
+/* CENG311 Activity 3 CSS File */
+
+body {
+    width: 750px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.table-wrapper {
+    border: 4px solid black;
+    margin: 20px auto;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+}
+
+.table-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 2px solid black;
+    padding: 12px;
+    text-align: left;
+}
+
+thead {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+.years-header {
+    text-align: right;
+}
+
+.years-value {
+    text-align: right;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: yellow;
+}
+
+.department {
+    font-weight: bold;
+    text-align: center;
+    border-right: 3px solid black;
+}
+
+.white-bg {
+    background-color: white !important;
+}
+
+tfoot tr.total-row {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.total-label {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.total-value {
+    text-align: right;
+    font-weight: bold;
+}
